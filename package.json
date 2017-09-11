@@ -1,0 +1,23 @@
+{
+  "name": "unified-internet-architecture",
+  "version": "0.0.0",
+  "description": "just a thought",
+  "main": "server.js",
+  "repository": "",
+  "author": "People <email@email.com>",
+  "dependencies": {
+    "async": "~0.2.8",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.13.4",
+    "socket.io": "~0.9.14"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.0",
+    "serve-favicon": "^2.4.3",
+    "stylus": "^0.54.5"
+  },
+  "scripts": {
+    "build": "dev/build.sh",
+    "run": "dev/run.sh"
+  }
+}
